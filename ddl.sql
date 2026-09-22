@@ -1,6 +1,6 @@
-drop database if exists gestao_pedido;
-create database gestao_pedido;
-use gestao_pedidos;
+drop database if exists gestao_vestes;
+create database gestao_vestes;
+use gestao_vestes;
 create table produto(
     id int not null primary key auto_increment,
     id_categoria int not null required,
