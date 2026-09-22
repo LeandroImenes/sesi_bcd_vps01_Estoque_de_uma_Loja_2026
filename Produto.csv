@@ -1,6 +1,6 @@
 id;id_categoria;id_fornecedor;nome;descricao;preco;marca
-1;2;3;Calça;Preta; R$ 20,00 ;Abibas
-2;3;2;Camiseta;Azul; R$ 30,00 ;Naike
-3;1;1;Tênis;Branco; R$ 80,00 ;Pulma
+1;2;3;Camiseta;Verde; R$ 60,00 ;Abibas
+2;3;2;TÃªnis;Rosa; R$ 150,00 ;Polma
+3;1;1;CalÃ§a;Vermelho e azul; R$ 70,00 ;Naike
 ;;;;;;
 ;;;;;;
