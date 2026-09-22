@@ -74,3 +74,10 @@ describe estoque;
 describe movimentacao;
 show tables;
 ```
+
+<br>
+
+## Script SQL DML (Manipulação: População com dados de teste)
+```SQL
+
+```
