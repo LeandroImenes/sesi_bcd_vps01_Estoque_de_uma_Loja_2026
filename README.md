@@ -9,6 +9,37 @@
 <br>
 
 ## Dicionário de dados
+|Entidade|Atributo|Tipo|Tamanho|Descrição|
+|-|-|-|-|-|
+|Produto|id|int||Identificador, PK, auto incrementável|
+|Produto|id_categoria|int||Identificador, FK|
+|Produto|id_fornecedor|int||Identificador, FK|
+|Produto|nome|varchar||Nome do produto|
+|Produto|descrição|varchar||Descição do produto|
+|Produto|preço|int||Preço do produto
+|Produto|marca|varchar||Marca do produto|
+|Categoria|
+|Categoria|
+|Categoria|
+|Fornecedor|
+|Fornecedor|
+|Fornecedor|
+|Fornecedor|
+|Fornecedor|
+|Fornecedor|
+|Fornecedor|
+|Estoque|
+|Estoque|
+|Estoque|
+|Estoque|
+|Estoque|
+|Movimentação|
+|Movimentação|
+|Movimentação|
+|Movimentação|
+|Movimentação|
+
+<br>
 
 ## Dados de teste em CSV
 - [Produto.csv](Produto.csv)
