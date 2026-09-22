@@ -11,8 +11,8 @@
 ## Dicionário de dados
 
 ## Dados de teste em CSV
-[produtos.csv](produtos.csv)
-[categoria.csv](categoria.csv)
-[fornecedor.csv](fornecedor.csv)
-[estoque.csv](estoque.csv)
-[movimentacao.csv](movimentacao.csv)
+- [Produtos.csv](Produtos.csv)
+- [Categoria.csv](Categoria.csv)
+- [Fornecedor.csv](Fornecedor.csv)
+- [Estoque.csv](Estoque.csv)
+- [Movimentação.csv](Movimentação.csv)
