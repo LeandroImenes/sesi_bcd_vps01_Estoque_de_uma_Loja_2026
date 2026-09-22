@@ -11,33 +11,33 @@
 ## Dicionário de dados
 |Entidade|Atributo|Tipo|Tamanho|Descrição|
 |-|-|-|-|-|
-|Produto|id|int||Identificador, PK, auto incrementável|
-|Produto|id_categoria|int||Identificador, FK|
-|Produto|id_fornecedor|int||Identificador, FK|
-|Produto|nome|varchar||Nome do produto|
-|Produto|descrição|varchar||Descição do produto|
-|Produto|preço|int||Preço do produto
-|Produto|marca|varchar||Marca do produto|
-|Categoria|id||Identificador, PK, auto incrementável|
-|Categoria|nome||Nome da categoria|
-|Categoria|descrição||Descrição da categoria|
-|Fornecedor|id||Identificador, PK, auto incrementável|
-|Fornecedor|razão social||Nome do fornecedor|
-|Fornecedor|nome_fantasia||Sigla do nome|
-|Fornecedor|cnpj||Cadastro nacional de pessoa jurídica|
-|Fornecedor|telefone||Telefone do fornecedor|
-|Fornecedor|email||Email do fornecedor|
-|Fornecedor|endereço||Endereço do fornecedor|
-|Estoque|id_estoque||Identificador, PK, auto incrementável|
-|Estoque|id_produto||Identificador, FK|
-|Estoque|quantidade||Quantidade a ser comprada|
-|Estoque|quantidade mínima||Quantidade mínima para realizar a compra|
-|Estoque|localização||Local do item|
-|Movimentação|id_movimentacao||Identificador, PK, auto incrementável|
-|Movimentação|id_produto||Identificador, FK|
-|Movimentação|tipo||Entrada ou saída do estoque|
-|Movimentação|quantidade||Quantidade enviada/recebida|
-|Movimentação|data||Data da entrada/saída do produto no estoque|
+|Produto|id|int|1|Identificador, PK, auto incrementável|
+|Produto|id_categoria|int|1|Identificador, FK|
+|Produto|id_fornecedor|int|1|Identificador, FK|
+|Produto|nome|varchar|50|Nome do produto|
+|Produto|descrição|varchar|200|Descição do produto|
+|Produto|preço|decimal|10,2|Preço do produto
+|Produto|marca|varchar|30|Marca do produto|
+|Categoria|id|int|1|Identificador, PK, auto incrementável|
+|Categoria|nome|varchar|50|Nome da categoria|
+|Categoria|descrição|varchar|200|Descrição da categoria|
+|Fornecedor|id|int|1|Identificador, PK, auto incrementável|
+|Fornecedor|razão social|varchar|10|Nome do fornecedor|
+|Fornecedor|nome_fantasia|varchar|50|Sigla do nome|
+|Fornecedor|cnpj|varchar|15|Cadastro nacional de pessoa jurídica|
+|Fornecedor|telefone|varchar|15|Telefone do fornecedor|
+|Fornecedor|email|varchar|30|Email do fornecedor|
+|Fornecedor|endereço|varchar|50|Endereço do fornecedor|
+|Estoque|id_estoque|int|1|Identificador, PK, auto incrementável|
+|Estoque|id_produto|int|1|Identificador, FK|
+|Estoque|quantidade|int|5|Quantidade a ser comprada|
+|Estoque|quantidade mínima|int|1|Quantidade mínima para realizar a compra|
+|Estoque|localização|varchar|10|Local do item|
+|Movimentação|id_movimentacao|int|1|Identificador, PK, auto incrementável|
+|Movimentação|id_produto|int|1|Identificador, FK|
+|Movimentação|tipo|enum(entrada, saída)|1|Entrada ou saída do estoque|
+|Movimentação|quantidade|int|5|Quantidade enviada/recebida|
+|Movimentação|data|date|10|Data da entrada/saída do produto no estoque|
 
 <br>
 
