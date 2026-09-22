@@ -7,7 +7,7 @@ create table produto(
     id_fornecedor int not null required,
     nome varchar (50) not null required,
     descricao varchar (200) not null required,
-    preco int (5) not null required,
+    preco decimal (10,2) not null required,
     marca varchar (30) not null required
 );
 create table categoria(
