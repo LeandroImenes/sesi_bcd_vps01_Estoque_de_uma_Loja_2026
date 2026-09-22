@@ -18,26 +18,26 @@
 |Produto|descrição|varchar||Descição do produto|
 |Produto|preço|int||Preço do produto
 |Produto|marca|varchar||Marca do produto|
-|Categoria|
-|Categoria|
-|Categoria|
-|Fornecedor|
-|Fornecedor|
-|Fornecedor|
-|Fornecedor|
-|Fornecedor|
-|Fornecedor|
-|Fornecedor|
-|Estoque|
-|Estoque|
-|Estoque|
-|Estoque|
-|Estoque|
-|Movimentação|
-|Movimentação|
-|Movimentação|
-|Movimentação|
-|Movimentação|
+|Categoria|id||Identificador, PK, auto incrementável|
+|Categoria|nome||Nome da categoria|
+|Categoria|descrição||Descrição da categoria|
+|Fornecedor|id||Identificador, PK, auto incrementável|
+|Fornecedor|razão social||Nome do fornecedor|
+|Fornecedor|nome_fantasia||Sigla do nome|
+|Fornecedor|cnpj||Cadastro nacional de pessoa jurídica|
+|Fornecedor|telefone||Telefone do fornecedor|
+|Fornecedor|email||Email do fornecedor|
+|Fornecedor|endereço||Endereço do fornecedor|
+|Estoque|id_estoque||Identificador, PK, auto incrementável|
+|Estoque|id_produto||Identificador, FK|
+|Estoque|quantidade||Quantidade a ser comprada|
+|Estoque|quantidade mínima||Quantidade mínima para realizar a compra|
+|Estoque|localização||Local do item|
+|Movimentação|id_movimentacao||Identificador, PK, auto incrementável|
+|Movimentação|id_produto||Identificador, FK|
+|Movimentação|tipo||Entrada ou saída do estoque|
+|Movimentação|quantidade||Quantidade enviada/recebida|
+|Movimentação|data||Data da entrada/saída do produto no estoque|
 
 <br>
 
